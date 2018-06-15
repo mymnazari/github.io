@@ -1,5 +1,7 @@
-# Start Learning Python
-
+---
+layout: post
+title: Start Learning Python
+---
 ## WomenTechWomenYes
 
 This was the first project that I did in Metis. The purpose of the project for me was to learn Pandas and data cleaning.
