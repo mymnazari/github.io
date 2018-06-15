@@ -1,0 +1,24 @@
+# Learning Linear Regression
+
+## Predicting the GDP per Capita
+In this project I tried to predict GDP per capita of  the countries in 2016 based on the their legal rights, financing power, transparency, gender equality and location. The learning objectives of this project were web scraping, linear regression, cross alidation and regularization. 
+
+
+## Data 
+I got the data by web scraping from three different sources:
+1) World Bank
+2) Transparency International
+3) United Nation Developement Program
+
+![alt_text](https://github.com/mymnazari/mymnazari.github.io/blob/master/images/Variables.png)
+
+
+## Finding the best predective model
+I started with OLS. Then I test to see if I need to add polynomial but my models had higher error if I add any polynomial. Then I try Lasso and Ridge regression with cross validation and tuning. Lasso regression with alpha=0.0001 was my best model. The adjusted R-squared of this model was 78.3% and the mean absolout error was 0.54. I also tested the error distribution to see if it is normally distributed and it passed the normality test. The images below show the distribution of the errors. 
+
+![alt_text](https://github.com/mymnazari/mymnazari.github.io/blob/master/images/p2_2.png)
+![alt_text](https://github.com/mymnazari/mymnazari.github.io/blob/master/images/p2_3.png)
+
+
+
+
